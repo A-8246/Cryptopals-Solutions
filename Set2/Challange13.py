@@ -45,7 +45,7 @@ def attack(original_email):
 	encrypting_format = "email="+original_email+"&uid=10&role=user"
 	print(encrypting_format)
 	admin_plaintext = pad_pkcs7(b"admin", 16)
-	print(admin_plaintext)
+	#print(admin_plaintext)
 	crafted_email = "A"*10 + admin_plaintext.decode('utf-8')
 	admin_ciphertext = profile_for(crafted_email)[16:32]
 	#print(pkcs7_unpad(ecb_dec(admin_ciphertext, key)))
