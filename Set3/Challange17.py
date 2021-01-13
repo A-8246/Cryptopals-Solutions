@@ -1,3 +1,4 @@
+#https://crypto.stackexchange.com/questions/3714/how-does-a-padding-oracle-attack-work
 #https://perso.heavyberry.com/articles/2015-12/cryptopals3
 #https://blog.skullsecurity.org/2013/padding-oracle-attacks-in-depth
 #https://robertheaton.com/2013/07/29/padding-oracle-attack/
