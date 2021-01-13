@@ -1,3 +1,7 @@
+#https://perso.heavyberry.com/articles/2015-12/cryptopals3
+#https://blog.skullsecurity.org/2013/padding-oracle-attacks-in-depth
+#https://robertheaton.com/2013/07/29/padding-oracle-attack/
+
 from Crypto.Cipher import AES
 import base64
 import random
